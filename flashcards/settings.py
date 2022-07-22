@@ -1,3 +1,5 @@
+# flashcards/settings.py
+
 """
 Django settings for flashcards project.
 
@@ -38,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cards.apps.CardsConfig',
 ]
 
 MIDDLEWARE = [
